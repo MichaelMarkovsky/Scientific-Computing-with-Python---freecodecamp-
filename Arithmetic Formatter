@@ -35,7 +35,6 @@ def arithmetic_arranger(problems_list,answer=False):
         output2.append(f'{p}{int(num2):{len_max+1}}')
         output3.append(f'{seperator}')
         output4.append(f'{solution:{len_max+2}}')
-        #print(f'{int(num1):{len_max+2}}\n{p}{int(num2):{len_max+1}}\n{seperator}\n{solution:{len_max+2}}')
 
     for problem in output1:
         print(problem+"    ",end="")
